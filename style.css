@@ -134,6 +134,14 @@ p.sec-para {
     top: 7px;
     color: rgb(116, 133, 221);
 }
+.fa-laptop-code{
+    font-size: 30px;
+    left: 2px;
+    font-weight: 900;
+    position: relative;
+    top: 7px;
+    color: rgb(116, 133, 221);
+}
 .icon {
     margin: auto;
     width: 78px;
