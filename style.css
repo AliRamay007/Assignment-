@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    content:'';
+    background: url(ggg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.shadow{
+    background-image: linear-gradient(#fde8ee, #b2c8f3);
+    width: 713px;
+    height: 333px;
+    margin: 170px auto 100px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.web {
+    background-color: white;
+    width: 598px;
+    height: 352px;
+    margin: 62px auto 0;
+    z-index: 2;
+    position: absolute;
+    left: 376px;
+    border-radius: 20px;
+    padding: 30px;
+}
+h5.heading-5 {
+    margin: 20px auto;
+    width: 191px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #111111;
+    font-family: "Open sans", sans-serif;
+}
+h5.heading6 {
+    font-size: 72px;
+    color: #E72c66;
+    text-align: center;
+    margin-bottom: 17px;
+    font-family: "Montserrat", sans-serif;
+}
+p.para {
+    width: 144px;
+    margin: auto;
+    font-size: 18px;
+    color: #111111;
+    font-family: "Open sans", sans-serif;
+}
+.second-section {
+    background-image: linear-gradient(#fde8ee, #b2c8f3);
+    width: 100%;
+    height: 1030px;
+}
+h2.heading2 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    margin: 44px 0px 0px;
+    color: #E72c66;
+}
+p.sec-para {
+    font-size: 24px;
+    width: 93%;
+    line-height: 39px;
+    color: #111111;
+    margin-top: 31px;
+    font-family: "Open sans", sans-serif;
+}
+
+
+.second {
+    display: flex;
+    gap: 18px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+
+.card1 {
+    width: 302px;
+    height: 479px;
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    margin-bottom: 21px;
+}
+.card2 {
+    width: 302px;
+    height: 424px;
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+}
+.card3 {
+    width: 302px;
+    height: 415px;
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+}
+.card4 {
+    width: 302px;
+    position: relative;
+    height: 455px;
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    bottom: 51px;
+}
+
+
+.fa-solid, .fas {
+    font-size: 30px;
+    left: 7px;
+    font-weight: 900;
+    position: relative;
+    top: 7px;
+    color: rgb(116, 133, 221);
+}
+.icon {
+    margin: auto;
+    width: 78px;
+    border-radius: 100px;
+    height: 78px;
+    background: #ebf1fc;
+    padding: 18px;
+}
+h3.head3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px auto;
+    color: #4b7de1;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+p.short {
+    text-align: center;
+    line-height: 2;
+    width: 245px;
+    font-size: 16px;
+    /* width: 100px; */
+    color: #555c66;
+    font-family: "Open sans", sans-serif;
+}
+.free {
+    /* margin: auto; */
+    text-align: center;
+    width: 97px;
+    padding: 6px 10px 7px 10px;
+    border-radius: 100px;
+    background: #E72c66;
+    margin: 20px auto;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+}
+a.open {
+    font-size: 16px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin: 16px auto;
+    color: #555c66;
+    font-family: "Open sans", sans-serif;
+    text-decoration: none;
+    border-bottom: 1px solid #4b7de1;
+    width: 49px;
+}
+.btn {
+    width: 40%;
+    background-color: #E72c66;
+    text-align: center;
+    padding: 16px 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin: 33px 0px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+}
+@media (max-width: 575px){
+    .main{
+        content:'';
+        background: url(ggg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        width: 261%;
+        height: 700px;
+        overflow: hidden;
+
+    }
+    .shadow {
+        width: 556px;
+        height: 342px;
+        margin: 170px auto 0px;
+        overflow: hidden;
+    }
+    .web {
+        width: 444px;
+        height: 321px;
+        z-index: 2;
+        position: absolute;
+        left: 270px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h5.heading6 {
+        font-size: 54px;
+    }
+    .second-section {
+        width: 260%;
+        height: auto;
+    }
+    h2.heading2 {
+        font-size: 30px;
+        width: 34%;
+        margin: 44px auto 0px;
+    }
+    p.sec-para {
+        font-size: 24px;
+        width: 32%;
+        margin: 31px auto;
+    }
+    .btn {
+        width: 20%;
+        padding: 14px 10px;
+        margin: 39px auto 31px 335px;
+    }
+    .second {
+        display: flex;
+        gap: 18px;
+        flex-direction: column;
+    }
+    .card3 {
+        margin-top: 44px;
+        margin-bottom: 82px;
+    }
+    
+
+
+
+}
